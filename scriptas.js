@@ -1,4 +1,4 @@
-images = ["images/layer1.png", "images/map.png", "images/ilogo1.png", "images/ilogo2.png"];
+images = ["images/uostas.png", "images/map.png", "images/ilogo1.png", "images/ilogo2.png"];
 var count = 0;
 
 function moveRigth() {
