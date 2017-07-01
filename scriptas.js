@@ -30,4 +30,11 @@ $(document).ready(function() {
 	mygtukas[1].onclick = function() {
 		moveRigth()
 	}
+	
+	if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) 
+{
+   alert("Browser is Safari");          
+}
 });
+
+
