@@ -482,7 +482,9 @@ body {
         font-size: 1.5vw !important;
         width: 70% !important;
         height: 30px !important;
-        padding-bottom: 3px !important; }
+        padding-bottom: 3px !important;
+        margin: 0 !important;
+        padding: 0 !important; }
       .container_3 .info a {
         font-size: 1.5vw !important; }
       .container_3 .info li {
@@ -521,7 +523,9 @@ body {
         min-height: 23.5vw !important; }
   .container_1 .white-menu {
     width: 100% !important;
-    position: relative !important; }
+    position: relative !important;
+    height: 200px !important;
+    padding-bottom: 20px !important; }
     .container_1 .white-menu .fb-search {
       -webkit-box-orient: vertical !important;
       -webkit-box-direction: normal !important;
