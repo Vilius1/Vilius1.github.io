@@ -517,7 +517,7 @@ body {
       flex-direction: column !important; }
       .container_1 .white-menu .fb-search .searchbar {
         position: absolute;
-        top: 5%;
+        top: 2%;
         left: 10%;
         padding: 0 !important;
         margin: 0 !important;
@@ -590,9 +590,9 @@ body {
     height: 250px; }
     .container_2 h1 {
       font-size: 5.5vw !important; } }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 320px) {
   .container_1 .dropdown-content {
-    height: 30vh !important;
+    height: 50vh !important;
     width: 40vw !important; } }
 
 /*# sourceMappingURL=css.css.map */
