@@ -510,14 +510,12 @@ body {
         min-height: 23.5vw !important; }
   .container_1 .white-menu {
     width: 100% !important;
-    position: relative !important;
-    height: auto !important; }
+    position: relative !important; }
     .container_1 .white-menu .fb-search {
       -webkit-box-orient: vertical !important;
       -webkit-box-direction: normal !important;
       -ms-flex-direction: column !important;
-      flex-direction: column !important;
-      height: auto !important; }
+      flex-direction: column !important; }
       .container_1 .white-menu .fb-search .searchbar {
         position: absolute;
         top: 2%;
@@ -543,7 +541,6 @@ body {
         .container_1 .white-menu .fb-search .searchbar input::placeholder {
           font-size: 4vw !important; }
       .container_1 .white-menu .fb-search .fb {
-        height: auto !important;
         width: 100% !important;
         padding: 0 !important;
         margin: 0 !important;

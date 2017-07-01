@@ -614,13 +614,13 @@ body {
 		.white-menu {
 			width: 100%!important;
 			position: relative !important;
-			height:auto !important;
+			
 			.fb-search {
 				-webkit-box-orient: vertical !important;
 				-webkit-box-direction: normal !important;
 				-ms-flex-direction: column !important;
 				flex-direction: column !important;
-				height:auto !important;
+				
 				.searchbar {
 					position: absolute;
 					top: 2%;
@@ -651,8 +651,7 @@ body {
 						font-size: 4vw!important;
 					}
 				}
-				.fb {
-					height:auto !important;
+				.fb {					
 					width: 100% !important;
 					padding: 0 !important;
 					margin: 0 !important;
