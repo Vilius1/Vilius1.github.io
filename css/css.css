@@ -496,7 +496,7 @@ body {
     height: 150px !important; }
 
   .drop-fix {
-    top: 17%; }
+    top: 17% !important; }
 
   .container_1 .dropdown-content {
     height: 43vh !important;
