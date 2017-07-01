@@ -449,7 +449,7 @@ body {
 
 @media only screen and (max-width: 1056px) {
   .safari-fix {
-    height: 150px !important; }
+    height: 200px !important; }
 
   .container_1 .dropdown-content {
     display: inline-block;
@@ -477,7 +477,9 @@ body {
       flex-wrap: wrap;
       height: auto; }
       .container_3 .info span {
-        font-size: 1.5vw !important; }
+        font-size: 1.5vw !important;
+        width: 70% !important;
+        height: 15% !important; }
       .container_3 .info a {
         font-size: 1.5vw !important; }
       .container_3 .info li {

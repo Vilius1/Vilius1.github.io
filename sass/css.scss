@@ -512,7 +512,7 @@ body {
 }
 @media only screen and (max-width:1056px) {
 	.safari-fix {
-		height:150px !important;		
+		height:200px !important;		
 
 	}
 	.container_1 {
@@ -563,6 +563,8 @@ body {
 			height: auto;
 			span {
 				font-size: 1.5vw !important;
+				width:70% !important;
+				height:15% !important;
 			}
 			a {
 				font-size: 1.5vw !important;
