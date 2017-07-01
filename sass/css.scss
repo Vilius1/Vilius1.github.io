@@ -588,6 +588,11 @@ body {
 	}
 }
 @media only screen and (max-width:768px) {
+	.safari-fix {
+		height:400px !important;
+
+	}
+
 	.container_1 {
 		.dropdown-content {
 			height: 43vh !important;

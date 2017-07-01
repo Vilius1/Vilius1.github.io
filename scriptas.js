@@ -33,7 +33,8 @@ $(document).ready(function() {
 	
 	if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) 
 {
-   alert("Browser is Safari");          
+   alert("Browser is Safari");
+	$("white-menu").addClass(".safari-fix");
 }
 });
 
