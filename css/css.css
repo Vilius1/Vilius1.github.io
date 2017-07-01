@@ -491,7 +491,7 @@ body {
     height: 250px; }
     .container_2 h1 {
       font-size: 3.5vw !important; } }
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 768px) {
   .container_1 .dropdown-content {
     height: 30vh !important;
     width: 40vw !important; }
@@ -571,8 +571,10 @@ body {
       .container_3 .info li {
         font-size: 3.5vw !important; }
     .container_3 .images5 div {
-      width: auto; }
+      width: auto;
+      text-align: center; }
     .container_3 .images5 img {
+      min-width: 150px;
       max-height: 250px;
       max-width: 250px;
       padding-left: 10% !important;
