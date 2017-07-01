@@ -476,15 +476,12 @@ body {
     flex-wrap: wrap; }
     .container_3 .info {
       -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
       height: auto; }
       .container_3 .info span {
         font-size: 1.5vw !important;
         width: 70% !important;
         height: 30px !important;
-        padding-bottom: 3px !important;
-        margin: 0 !important;
-        padding: 0 !important; }
+        padding-bottom: 3px !important; }
       .container_3 .info a {
         font-size: 1.5vw !important; }
       .container_3 .info li {
