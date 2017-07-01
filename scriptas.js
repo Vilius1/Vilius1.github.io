@@ -35,6 +35,7 @@ $(document).ready(function() {
 {
    
 	$(".white-menu").addClass("safari-fix");
+	$(".dropdown-content").addClass("drop-fix");
 }
 });
 
