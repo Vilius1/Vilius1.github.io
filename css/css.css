@@ -567,7 +567,9 @@ body {
       flex-wrap: wrap;
       height: auto; }
       .container_3 .info span {
-        font-size: 3.5vw !important; }
+        font-size: 3.5vw !important;
+        width: 70% !important;
+        margin-left: 5vw !important; }
       .container_3 .info a {
         font-size: 3.5vw !important; }
       .container_3 .info li {
