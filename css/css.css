@@ -482,6 +482,8 @@ body {
         width: 70% !important;
         height: 30px !important;
         padding-bottom: 3px !important; }
+      .container_3 .info ul {
+        height: 130px !important; }
       .container_3 .info a {
         font-size: 1.5vw !important; }
       .container_3 .info li {
