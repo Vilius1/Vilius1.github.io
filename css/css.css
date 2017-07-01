@@ -462,6 +462,8 @@ body {
   .container_1 .white-menu .fb-search .searchbar {
     width: 20vw !important;
     height: 3vw !important; }
+    .container_1 .white-menu .fb-search .searchbar a {
+      height: 100%; }
   .container_1 .white-menu .fb-search .fb a {
     font-size: 2vw !important; }
   .container_1 .white-menu ul a {
