@@ -448,6 +448,9 @@ body {
     line-height: 50px; }
 
 @media only screen and (max-width: 1056px) {
+  .safari-fix {
+    height: 150px !important; }
+
   .container_1 .dropdown-content {
     display: inline-block;
     height: 30vh !important;
