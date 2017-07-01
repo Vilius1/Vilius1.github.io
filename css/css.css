@@ -507,7 +507,8 @@ body {
         min-height: 23.5vw !important; }
   .container_1 .white-menu {
     width: 100% !important;
-    position: relative !important; }
+    position: relative !important;
+    height: auto !important; }
     .container_1 .white-menu .fb-search {
       -webkit-box-orient: vertical !important;
       -webkit-box-direction: normal !important;
