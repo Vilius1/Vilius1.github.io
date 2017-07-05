@@ -35,6 +35,7 @@ $(document).ready(function() {
 {
    
 	$(".white-menu").addClass("safari-fix");
+	$(".logo-container").addClass("safari-fix");
 	
 }
 });
