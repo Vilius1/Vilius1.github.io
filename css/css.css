@@ -30,7 +30,9 @@ body {
   padding: 0;
   margin: 0;
 }
-
+.safari-fix2 {
+	height: 400px
+}
 /* line 24, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
 .container_1 {
   height: auto;
