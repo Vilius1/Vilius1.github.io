@@ -513,7 +513,7 @@ body {
 		height: 150px !important;
 	}
 	.test {
-		width: 700px;
+		width: 100%;
 		margin: 0;
 		padding: 0;
 		padding-top: 90px;
@@ -553,12 +553,11 @@ body {
 		-ms-flex-line-pack: center;
 		align-content: center;
 		align-content: center;
-		//width: 15vw !important;
-		//height: 3vw !important;
+		float: right;
 	}
 	.fb {
 		width: auto;
-		float: left;
+		float: right;
 		a {
 			margin-left: 12px;
 		}
@@ -620,7 +619,7 @@ body {
 		height: 50%;
 		flex-grow: 1;
 		padding-top: 70px;
-		padding-right: 12px;
+		padding-right: 3%;
 	}
 	.header {
 		height: 150px;

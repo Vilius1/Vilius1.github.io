@@ -646,7 +646,7 @@ body {
   }
   /* line 515, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .test {
-    width: 700px;
+    width: 100%;
     margin: 0;
     padding: 0;
     padding-top: 90px;
@@ -691,46 +691,47 @@ body {
     -ms-flex-line-pack: center;
     align-content: center;
     align-content: center;
+    float: right;
   }
-  /* line 559, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 558, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .fb {
     width: auto;
-    float: left;
+    float: right;
   }
-  /* line 562, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 561, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .fb a {
     margin-left: 12px;
   }
-  /* line 565, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 564, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .fb a:nth-child(2) {
     margin-left: 20px;
   }
-  /* line 568, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 567, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .fb a:first-child {
     margin-left: 12px;
   }
-  /* line 571, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 570, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .fb a:last-child {
     margin-right: 12px;
   }
-  /* line 574, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 573, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .fb a:last-child::before {
     margin-right: 12px;
   }
-  /* line 578, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 577, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .container_3 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
-  /* line 581, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 580, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .container_3 * {
     flex-flow: row;
   }
-  /* line 585, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 584, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .info {
     height: 200px;
   }
-  /* line 587, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 586, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .info span {
     margin-left: 20px;
     margin-top: 10px;
@@ -738,12 +739,12 @@ body {
     font-size: 13px;
     width: 70% !important;
   }
-  /* line 596, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 595, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .images5 div {
     width: auto;
     text-align: center;
   }
-  /* line 600, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 599, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .images5 img {
     min-width: 150px;
     max-height: none;
@@ -751,18 +752,18 @@ body {
     padding-left: 10% !important;
     padding-right: 10% !important;
   }
-  /* line 608, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 607, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .container_2 {
     height: 250px;
   }
 }
 
 @media only screen and (min-width: 1098px) {
-  /* line 613, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 612, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   html {
     font-size: 16px;
   }
-  /* line 616, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 615, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .test {
     width: 100%;
     margin: 0;
@@ -770,30 +771,30 @@ body {
     height: 50%;
     flex-grow: 1;
     padding-top: 70px;
-    padding-right: 12px;
+    padding-right: 3%;
   }
-  /* line 625, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 624, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .header {
     height: 150px;
     width: 1060px;
     margin: auto;
   }
-  /* line 630, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 629, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .dropdown-content {
     width: 17vw !important;
     height: 20vw !important;
   }
-  /* line 634, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 633, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .logo-container {
     float: left;
     height: auto;
   }
-  /* line 637, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 636, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .logo-container img {
     min-width: 100px !important;
     min-height: 100px !important;
   }
-  /* line 642, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 641, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .white-menu {
     margin: 0;
     padding: 0;
@@ -801,66 +802,66 @@ body {
     flex-direction: column;
     float: right;
   }
-  /* line 649, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 648, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .searchbar {
     height: 20px !important;
     width: 145px !important;
     float: right;
   }
-  /* line 653, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 652, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .searchbar a {
     height: 100%;
   }
-  /* line 657, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 656, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .fb {
     width: auto;
     float: right;
   }
-  /* line 660, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 659, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .fb a {
     margin-left: 12px;
   }
-  /* line 663, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 662, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .fb a:nth-child(2) {
     margin-left: 20px;
   }
-  /* line 666, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 665, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .fb a:first-child {
     margin-left: 12px;
   }
-  /* line 669, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 668, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .fb a:last-child {
     margin-right: 12px;
   }
-  /* line 672, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 671, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .fb a:last-child::before {
     margin-right: 12px;
   }
-  /* line 676, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 675, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .apiemus {
     height: 50%;
     flex-grow: 1;
     padding-top: 30px;
   }
-  /* line 680, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 679, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .apiemus li {
     display: inline-block;
   }
-  /* line 683, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 682, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .apiemus a {
     font-size: 15px;
   }
-  /* line 687, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 686, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .container_3 {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
-  /* line 691, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 690, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .info {
     -ms-flex-wrap: wrap;
     height: 300px;
   }
-  /* line 694, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 693, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .info span {
     font-size: 1.125rem;
     margin-left: 20px;
@@ -869,20 +870,20 @@ body {
     width: 70% !important;
     height: 10% !important;
   }
-  /* line 702, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 701, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .info ul {
     height: 80% !important;
   }
-  /* line 707, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 706, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .images5 div {
     width: 20% !important;
   }
-  /* line 710, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 709, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .images5 img {
     max-height: none !important;
     max-width: none !important;
   }
-  /* line 715, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
+  /* line 714, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
   .container_2 {
     height: 500px;
   }
