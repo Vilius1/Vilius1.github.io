@@ -457,7 +457,7 @@ body {
 }
 
 /* line 363, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
-.container_2 button:nth-child(1) {
+.firstbut {
   position: absolute;
   background-color: #8f8f8f;
   font-size: 1.25rem;
