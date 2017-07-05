@@ -464,7 +464,7 @@ body {
   font-weight: bold;
   color: white;
   top: 40%;
-  left: 0%;
+  
   opacity: 0.8;
   width: 4vw;
   height: 6vh;
@@ -475,7 +475,7 @@ body {
 
 /* line 378, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
 .container_2 button:last-child {
-  left: 96%;
+ right:-0.1px;
 }
 
 /* line 382, C:/Users/Vilius/Desktop/kursai/Saitas/sass/css.scss */
