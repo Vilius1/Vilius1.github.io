@@ -34,8 +34,8 @@ $(document).ready(function() {
 	if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) 
 {
    
-	$(".white-menu").addClass("safari-fix");
-	$(".header").addClass("safari-fix");
+	//$(".white-menu").addClass("safari-fix");
+	
 }
 });
 
