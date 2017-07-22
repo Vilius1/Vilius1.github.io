@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+
+ table {
+border-collapse: collapse;
+text-align: center;
+margin:0;
+padding:0;
+width:50%; 
+}
+
+tr {
+    height: 50px;
+}
+
+td {
+height:25px;
+width:25px;
+}
+
+
+tr+tr {
+border-top: 1px black solid;
+
+}
+
+td+td {
+ border-left: 1px black solid;
+
+}
+
+.red {
+
+    background-color:red;
+}
+
+.green {
+
+    background-color:green;
+}

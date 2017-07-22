@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    color:transparent;
+    font-weight: bolder;
+    font-size:15px;
+}
+ table {
+border-collapse: collapse;
+text-align: center;
+margin:0;
+padding:0;
+height: 500px;
+width: 450px;
+border: 2px solid greenyellow;
+}
+
+tr {
+    height: 18px;
+    padding:0;
+    margin:0;
+}
+
+td {
+    
+    padding:0;
+    margin:0;
+height:18px;
+width:18px;
+max-width: 18px;
+}
+
+/*
+tr+tr {
+border-top: 1px black solid;
+
+}
+
+td+td {
+ border-left: 1px black solid;
+
+}*/
+
+.red {
+padding:0;
+margin:0;
+height:18px;
+width:18px;
+max-width: 18px;
+background-color:transparent;
+color:transparent;
+background-image: url("head.png");
+border-radius:30%;
+}
+
+.red2 {
+padding:0;
+margin:0;
+height:18px;
+width:18px;
+max-width: 18px;
+background-color:transparent;
+color:transparent;
+background-image: url("head2.png");
+border-radius:30%;
+}
+.red3 {
+padding:0;
+margin:0;
+height:18px;
+width:18px;
+max-width: 18px;
+background-color:transparent;
+color:transparent;
+background-image: url("head3.png");
+border-radius:30%;
+}
+.red4 {
+padding:0;
+margin:0;
+height:18px;
+width:18px;
+max-width: 18px;
+background-color:transparent;
+color:transparent;
+background-image: url("head4.png");
+border-radius:30%;
+}
+.green {
+padding:0;
+margin:0;
+height:18px;
+width:18px;
+max-width: 18px;
+background-color:transparent;
+color:transparent;
+border-radius:60%;
+background-image: url("skin.png");
+}
+
+.white {
+padding:0;
+margin:0;
+height:18px;
+width:18px;
+max-width: 18px;
+background-color:white;
+color:orange;
+
+
+}
+
+.orange {
+padding:0;
+margin:0;
+height:18px;
+width:18px;
+max-width: 18px;
+background-color:transparent;
+border-radius:30%;
+background-image: url("apple.png");
+color:transparent;
+}
+
