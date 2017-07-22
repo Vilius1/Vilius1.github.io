@@ -1,14 +1,3 @@
-/*$.ajax({
-    method: 'GET',
-    url: 'https://api.github.com/users/'+ 'vilius1',
-    success: function (duomenys) {
-        document.write(duomenys.location);
-        document.write(<br/>);
-        document.write(duomenys.name);
-    }
-})*/
-//json.parse
-///////////////////////////////////////
 m = [];
 k = [];
 
@@ -270,7 +259,7 @@ function forever (){
 $(document).ready(function() {
 	lenta(25);
 	scan();
-    $("body").on("keydown", function (){
+    $("body").on("keydown", function (event){
         clickas(event);
     })
     forever ()
