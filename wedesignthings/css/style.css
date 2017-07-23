@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Myriad Pro;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   min-width: 660px;
 }
 
@@ -31,7 +31,7 @@ body {
 .menu-cover a {
   text-decoration: none;
   font-size: 35px;
-  font-family: Myriad Pro;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   text-transform: uppercase;
 }
 
@@ -233,7 +233,7 @@ body {
   height: 50px;
   margin-top: 70px;
   color: white;
-  font-family: Myriad Pro;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   font-size: 16px;
 }
 
@@ -504,7 +504,7 @@ ul.main-nav.show-it {
   -o-transition: all 5s ease-in-out;
   transition: all 5s ease-in-out;
   color: #424242;
-  font-family: Myriad Pro;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 
 .hire-us-content h1 {
@@ -537,7 +537,7 @@ ul.main-nav.show-it {
   border: none;
   border-radius: 5px;
   text-transform: uppercase;
-  font-family: Myriad Pro;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   margin-bottom: 60px;
 }
 
@@ -620,7 +620,7 @@ ul.main-nav.show-it {
 }
 
 .designs {
-  font-family: Myriad Pro;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -703,17 +703,17 @@ ul.main-nav.show-it {
 
 .wrapper-subscribe input::-webkit-input-placeholder {
   color: #9da1a6;
-  font-family: Myriad Pro;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 
 .wrapper-subscribe input:-ms-input-placeholder {
   color: #9da1a6;
-  font-family: Myriad Pro;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 
 .wrapper-subscribe input::placeholder {
   color: #9da1a6;
-  font-family: Myriad Pro;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 
 .wrapper-subscribe button {
@@ -727,7 +727,7 @@ ul.main-nav.show-it {
   width: 25%;
   height: 50px;
   text-transform: uppercase;
-  font-family: Myriad Pro;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   color: white;
   border: none;
   border-radius: 8px;
@@ -815,7 +815,7 @@ ul.main-nav.show-it {
   height: 100%;
   background-color: rgba(248, 112, 38, 0.9);
   color: white;
-  font-family: Myriad Pro;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   position: absolute;
   z-index: 10;
 }
@@ -824,7 +824,7 @@ ul.main-nav.show-it {
   margin-top: 85px;
   text-transform: uppercase;
   font-size: 25px;
-  font-family: Myriad Pro;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   font-weight: 300;
   margin-bottom: 30px;
 }
@@ -849,7 +849,7 @@ ul.main-nav.show-it {
   border: 1px solid transparent;
   text-transform: uppercase;
   font-size: 16px;
-  font-family: Myriad Pro;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 
 .our-works .work-container-overlay button:focus {
@@ -869,7 +869,7 @@ ul.main-nav.show-it {
   text-transform: uppercase;
   display: block;
   color: #3b434c;
-  font-family: Myriad Pro;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   margin: 25px auto;
   margin-bottom: 35px;
   font-size: 16px;
@@ -947,7 +947,7 @@ ul.main-nav.show-it {
   margin: auto;
   color: white;
   width: 80%;
-  font-family: Myriad Pro;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   font-size: 25px;
   text-align: justify;
   text-align-last: center;
@@ -991,7 +991,7 @@ ul.main-nav.show-it {
 }
 
 .team-members-container {
-  font-family: Myriad Pro;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1018,7 +1018,7 @@ ul.main-nav.show-it {
 .team-members-container .team-members h1 {
   color: #3b434c;
   font-size: 25px;
-  font-family: Myriad Pro;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   margin-top: 30px;
   margin-bottom: 30px;
   height: 30px;
@@ -1214,7 +1214,7 @@ ul.main-nav.show-it {
   border: none;
   border-radius: 5px;
   text-transform: uppercase;
-  font-family: Myriad Pro;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   float: left;
 }
 
