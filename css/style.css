@@ -8,15 +8,21 @@
   letter-spacing: 0.03em;
   margin:0;
   padding:0;
-  /* background: url(../images/main.jpg) no-repeat center center fixed;*/
+background: #c0c0aa;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  overflow: hidden;
- animation: animate_background 1s linear 0s ;
+  overflow: hidden; 
  background-position: 0 0;
-
+  height:100vh;
 }
 
 @keyframes animate_background { 
