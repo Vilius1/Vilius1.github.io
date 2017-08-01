@@ -103,6 +103,54 @@ function clickas(event) {
     }
     
 }
+
+
+function swipe(code) {
+	if (code == 39 && directionLeft !== true) {
+        directionRight = true;        
+        rightAdd();
+        obuolys ();
+        ejimas++;
+        resetV ();
+        direction = "Right";
+        styling ();
+        
+    }
+
+    else if (code == 37 && directionRight !== true) {
+        directionLeft = true;
+        leftAdd();
+        obuolys ();
+        ejimas++;
+        resetV ();
+        direction = "Left";
+        styling ();
+        
+    }
+
+    else if (code == 38 && directionBottom !== true) {
+        directionTop = true;
+        topAdd();
+        obuolys ();
+        ejimas++;
+        resetH ();
+        direction = "Top";
+        styling ();
+    }
+
+    else if (code == 40 && directionTop !== true) {
+        directionBottom = true;
+        bottomAdd();
+        obuolys ();
+        ejimas++;
+        resetH ();
+        direction = "Bottom";
+        styling ();
+    }
+    
+}
+
+
 function resetH (){
 directionRight = false;
 directionLeft = false;
@@ -262,7 +310,16 @@ $(document).ready(function() {
     $("body").on("keydown", function (event){
         clickas(event);
     })
-    forever ()
+    forever ();
+ $("body").touchwipe({
+     wipeLeft: function() { swipe(37); },
+     wipeRight: function() { swipe(39); },
+     wipeUp: function() { swipe(38); },
+     wipeDown: function() { swipe(40); },
+     min_move_x: 20,
+     min_move_y: 20,
+     preventDefaultEvents: true
+});
 });
 
 function gameOver(){
