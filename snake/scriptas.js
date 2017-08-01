@@ -128,7 +128,7 @@ function swipe(code) {
         
     }
 
-    else if (code == 38 && directionBottom !== true) {
+    else if (code == 40 && directionBottom !== true) {
         directionTop = true;
         topAdd();
         obuolys ();
@@ -138,7 +138,7 @@ function swipe(code) {
         styling ();
     }
 
-    else if (code == 40 && directionTop !== true) {
+    else if (code == 38 && directionTop !== true) {
         directionBottom = true;
         bottomAdd();
         obuolys ();
