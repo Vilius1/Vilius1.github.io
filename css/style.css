@@ -370,6 +370,10 @@ ul.main-nav.show-it {
   
 }
 @media screen and (max-width: 700px){
+ header.hero h1  {
+    font-size:50px;
+  }
+
   .box{
     width: 70%;
   }
