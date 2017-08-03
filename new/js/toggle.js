@@ -548,12 +548,11 @@ function cLine1(ste, sts) { //0 3
 
 function cLine2(ste, sts) { //0 3
 	figura = "cline2"
-	removeCurrentObject();
-	checkDotas(ste, sts);
+	removeCurrentObject();	
+	checkDotas(ste , sts);
 	checkDotas(ste + 1, sts);
-	checkDotas(ste + 1, sts + 1);
-	checkDotas(ste + 1, sts + 2);
-	checkDotas(ste + 1, sts + 3);
+	checkDotas(ste + 2, sts);
+	checkDotas(ste , sts +1);
 	gameOver(ste, sts, 0, 3);
 	if (lockas()) {
 		lock = false;
