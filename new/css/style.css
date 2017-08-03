@@ -45,19 +45,19 @@ td+td {
 */
 
 .or {
-	background-color: orange;
+	background-color: #c56d1b;
 }
 .blue {
-	background-color: blue;
+	background-color: #1b4ec5;
 }
 .gy {
-	background-color: greenyellow;
+	background-color: #449c4a;
 }
 .red {
-	background-color: red;
+	background-color: #e01f1f;
 }
 .vi {
-	background-color: purple;
+	background-color: #981bc5;
 }
 .or, .blue, .gy, .red, .vi {
 	border: 1px white solid;
