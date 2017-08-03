@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+border-collapse: collapse;
+text-align: center;
+margin:0;
+padding:0;
+height: 500px;
+width: 450px;
+border: 2px solid greenyellow;
+color:transparent;
+}
+
+tr {
+height: 18px;
+padding:0;
+margin:0;
+}
+
+td {  
+padding:0;
+margin:0;
+height:18px;
+width:18px;
+max-width: 18px;
+}
+
+
+tr+tr {
+border-top: 1px black solid;
+
+}
+
+td+td {
+ border-left: 1px black solid;
+
+}
+
+.or {
+    background-color:orange;
+}
+
+.blue {
+    background-color:blue;
+}
+
+.gy {
+    background-color:greenyellow;
+}
+
+.red {
+   background-color:red; 
+}
+
+.vi {
+    background-color: purple;
+}
+
+.able .or, .able  .blue,.able  .gy,.able  .red, .able  .vi {
+    border: 1px white solid;
+}
+
+.kebab {
+    color:black;
+    height:100px;
+    width:100px;
+    float:left;
+    
+}
+
+.able {
+    float:left;
+}
+
+.kebab tr, .kebab td{
+    width:25px;
+    height: 25px;
+    
+}
+
+.wrap{
+    height:500px;
+}
+
