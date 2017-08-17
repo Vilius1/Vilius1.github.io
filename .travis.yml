@@ -1,16 +1,18 @@
 language: node_js
 node_js:
   - "6"
- 
+  
+before_install: cd my-site 
+
 branches:
   only:
     - master
-    - my-site
+    
  
 cache:
   directories:
     - node_modules
- 
+
 script:
   - npm run build.prod
  
@@ -20,4 +22,4 @@ deploy:
   github_token: $GITHUB_TOKEN
   local_dir: dist
   on:
-    branch: my-site
+    branch: master
