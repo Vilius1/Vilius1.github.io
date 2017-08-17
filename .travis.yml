@@ -14,7 +14,7 @@ cache:
     - node_modules
 
 script:
-  - npm run build.prod
+  - npm ng serve
  
 deploy:
   provider: pages
