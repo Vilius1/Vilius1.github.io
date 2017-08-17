@@ -2,7 +2,7 @@ language: node_js
 
 node_js:
   - "6"
-  
+
 before_install: cd my-site
 branches:
   only:
@@ -17,8 +17,7 @@ script:
  
 deploy:
   provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
+  skip_cleanup: true  
   local_dir: dist
   on:
     branch: master
