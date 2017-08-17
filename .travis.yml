@@ -6,7 +6,7 @@ node_js:
 before_install: cd my-site
 branches:
   only:
-    - master
+    - master/my-site
  
 cache:
   directories:
@@ -21,4 +21,4 @@ deploy:
   github_token: $GITHUB_TOKEN
   local_dir: dist
   on:
-    branch: master  
+    branch: master/my-site  
