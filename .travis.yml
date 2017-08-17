@@ -5,6 +5,7 @@ node_js:
 branches:
   only:
     - master
+    - my-site
  
 cache:
   directories:
@@ -19,4 +20,4 @@ deploy:
   github_token: $GITHUB_TOKEN
   local_dir: dist
   on:
-    branch: master
+    branch: my-site
