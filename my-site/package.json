@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build.prod": "ng build --aot --prod --progress false --base-href \"https://github.com/Vilius1/Vilius1.github.io/tree/master/my-site\""
+    "build.prod": "ng build --aot --prod --progress false --base-href \"https://vilius1.github.io/my-site/\""
   },
   "private": true,
   "dependencies": {
