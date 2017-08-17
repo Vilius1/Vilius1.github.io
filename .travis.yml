@@ -14,7 +14,7 @@ cache:
     - node_modules
 
 script:
-  - npm ng serve
+  - npm run start
  
 deploy:
   provider: pages
